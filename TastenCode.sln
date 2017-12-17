@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TastenCode", "TastenCode\TastenCode.vcxproj", "{46251F91-1AD9-4B48-8D04-51555347A2B2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spacecraft_control", "..\..\..\Visual_Studio\Projects\spacecraft_control\spacecraft_control\spacecraft_control.vcxproj", "{ABB4943C-02AD-4A64-9827-0ACA50106AB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,11 +23,19 @@ Global
 		{46251F91-1AD9-4B48-8D04-51555347A2B2}.Release|x64.Build.0 = Release|x64
 		{46251F91-1AD9-4B48-8D04-51555347A2B2}.Release|x86.ActiveCfg = Release|Win32
 		{46251F91-1AD9-4B48-8D04-51555347A2B2}.Release|x86.Build.0 = Release|Win32
+		{ABB4943C-02AD-4A64-9827-0ACA50106AB5}.Debug|x64.ActiveCfg = Debug|x64
+		{ABB4943C-02AD-4A64-9827-0ACA50106AB5}.Debug|x64.Build.0 = Debug|x64
+		{ABB4943C-02AD-4A64-9827-0ACA50106AB5}.Debug|x86.ActiveCfg = Debug|Win32
+		{ABB4943C-02AD-4A64-9827-0ACA50106AB5}.Debug|x86.Build.0 = Debug|Win32
+		{ABB4943C-02AD-4A64-9827-0ACA50106AB5}.Release|x64.ActiveCfg = Release|x64
+		{ABB4943C-02AD-4A64-9827-0ACA50106AB5}.Release|x64.Build.0 = Release|x64
+		{ABB4943C-02AD-4A64-9827-0ACA50106AB5}.Release|x86.ActiveCfg = Release|Win32
+		{ABB4943C-02AD-4A64-9827-0ACA50106AB5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E6A9BBC4-E025-40F0-9490-8F38E4E298DE}
+		SolutionGuid = {A42A947E-9B58-46A7-A643-3A63671689B6}
 	EndGlobalSection
 EndGlobal
