@@ -1,9 +1,7 @@
 /*
 Dieses Programm wurde von Viktor Lennert geschrieben
-Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung-NichtKommerziell 4.0 International Lizenz.
-http://creativecommons.org/licenses/by-nc/4.0/
 
-Bitte beachten sie das dieses Programm nur für Windows geschrieben und auf ihre vollständige Funktionalität geprüft wurde!
+Bitte beachten sie das dieses Programm nur fÃ¼r Windows geschrieben und auf ihre vollstÃ¤ndige FunktionalitÃ¤t geprÃ¼ft wurde!
 Jegliche Informationen in diesem Programm beziehen sich auf eine Windows Umgebung.
 
 */
@@ -27,7 +25,7 @@ void zeichen()
 					  // den Wert -32 aus mithilfe dieses Wertes lassen sich ASCII Zeichen von anderen "Zeichen" unterscheiden
 	{
 		codePage = getch(); // Einlesen der Pfeiltastenwerte
-		switch (codePage) // Switch case zur Überprüfung welche Pfeiltaste gedrückt wurde
+		switch (codePage) // Switch case zur ÃœberprÃ¼fung welche Pfeiltaste gedrÃ¼ckt wurde
 		{
 		case 72: // Pfeiltaste nach oben
 			printf("Pfeiltaste OBEN\n"); 
@@ -55,7 +53,7 @@ void zeichen()
 int main()
 {
 	printf("Bitte beachten Sie das dieses Programm kontinuierlich die gedrueckten Zeichen darstellen wird!!\n");
-	printf("Aus diesem Grund ist es nicht möglich das Programm mit Strg + C zu beenden!!\n");
+	printf("Aus diesem Grund ist es nicht mÃ¶glich das Programm mit Strg + C zu beenden!!\n");
 		
 	while (true)
 	{
