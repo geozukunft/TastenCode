@@ -8,7 +8,6 @@ Jegliche Informationen in diesem Programm beziehen sich auf eine Windows Umgebun
 
 
 #include <stdio.h>
-#include <Windows.h>
 
 #define true 1
 
