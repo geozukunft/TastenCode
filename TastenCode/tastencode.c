@@ -18,10 +18,10 @@ void zeichen()
 	int codePage = 0; // Variable in die der Wert der Pfeiltasten gespeichert wird
 
 	ascii = getch(); // ASCII Zeichen haben nur einen Wert dieser wird hier eingelesen
-					 // Die Zeichenkodierung definiert 128 Zeichen, bestehend aus 33 nicht druckbaren sowie 95 druckbaren Zeichen
+			 // Die Zeichenkodierung definiert 128 Zeichen, bestehend aus 33 nicht druckbaren sowie 95 druckbaren Zeichen
 
 	if (ascii == -32) // Die Pfeiltasten geben anstatt eines normallen ASCII (American Standard Code for Information Interchange deshalb nicht ASCII Code ;) ) 
-					  // den Wert -32 aus mithilfe dieses Wertes lassen sich ASCII Zeichen von anderen "Zeichen" unterscheiden
+			  // den Wert -32 aus mithilfe dieses Wertes lassen sich ASCII Zeichen von anderen "Zeichen" unterscheiden
 	{
 		codePage = getch(); // Einlesen der Pfeiltastenwerte
 		switch (codePage) // Switch case zur Überprüfung welche Pfeiltaste gedrückt wurde
